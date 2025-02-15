@@ -2951,22 +2951,49 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-    id: "title"
-}, "Heading"); //React Element
-console.log(heading);
-const jsxElement = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    id: "1",
-    className: "title",
-    children: "Namaste React"
-}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 5,
-    columnNumber: 19
-}, undefined);
-console.log(jsxElement);
+const Title = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Namaste React"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 5,
+        columnNumber: 12
+    }, undefined);
+};
+_c = Title;
+const HeadingComponent = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Namaste React functional component"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 10,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 8,
+        columnNumber: 12
+    }, undefined);
+};
+_c1 = HeadingComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById('root'));
-root.render(jsxElement);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 15,
+    columnNumber: 13
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
