@@ -1,0 +1,1 @@
+export const LOGO_URL="https://png.pngtree.com/png-clipart/20220719/original/pngtree-food-logo-png-image_8367537.png";

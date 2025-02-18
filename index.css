@@ -30,13 +30,16 @@
     width: 150px;
     padding:5px 20px;
     margin: 10px;
-    /* background-color: lightgray; */
-}
-.card:hover{
     border: 1px solid gray;
     border-radius: 5px;
+}
+.card:hover{
+     background-color: lightgray;
 }
 img{
     width: 100px;
     background-color: none;
+}
+button{
+    margin: 10px;
 }
